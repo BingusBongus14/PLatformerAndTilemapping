@@ -69,7 +69,7 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
-         if (Input.GetKey("escape"))
+         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
         }
